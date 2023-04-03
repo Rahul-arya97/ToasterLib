@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity2">
+    <Button
+
+        android:id="@+id/med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medical!"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/design_default_color_on_secondary"
+        android:textColor="@color/design_default_color_on_primary"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/accident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accident!"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Security"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Security!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
